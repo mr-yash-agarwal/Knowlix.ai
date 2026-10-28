@@ -167,7 +167,7 @@ MAX_FILE_SIZE_MB=25
 MAX_PDF_PAGES=25
 ```
 
-### 3. Backend Setup
+### 3. Setup of the backend
 ```bash
 cd backend
 
@@ -240,7 +240,7 @@ The system seeds default test accounts on initial launch:
 | `GET` | `/api/stats` | Retrieves student learning metrics (scores, weak concepts, reviews) |
 | `GET` | `/api/sample-materials` | Provides 1-click sample study packs for instant testing |
 
-### Authentication & User Endpoints
+## Authentication & User Endpoints
 | Method | Endpoint | Description |
 |---|---|---|
 | `POST` | `/api/auth/register` | Register new student or educator account with PBKDF2 password hashing |
